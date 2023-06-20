@@ -8,10 +8,10 @@ public class GameManager : MonoBehaviour
     public Transform[] cardSlots;
     public bool[] emptyCardSlots;
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         Card randCard = startdeck[Random.Range(0, startdeck.Count)];
-        Card previousCard;
+
         for (int i = 1; i <= emptyCardSlots.Length; i++)
         {
             if (emptyCardSlots[i] == true)
@@ -22,13 +22,17 @@ public class GameManager : MonoBehaviour
 
                     if (a == 0) {
                         randCard.transform.position = cardSlots[i].position;
-                        randCard = previousCard;
+                        return;
+
                     }
                     else
                     {
-                        randCard.transform.parent = previousCard.transform;
-                        randCard = previousCard;
+                        randCard.transform.position = cardSlots[i].position + new Vector3(0,a * -10,0);
+                        return;
                     }
+                    emptyCardSlots[i] = false;
+                    startdeck.Remove(randCard);
+                    return;
                 }
             }
         }
