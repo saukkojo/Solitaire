@@ -4,13 +4,34 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public List<Card> deck = new List<Card>();
+    public List<Card> startdeck = new List<Card>();
     public Transform[] cardSlots;
-    public bool[] filledCardSlots;
+    public bool[] emptyCardSlots;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Card randCard = startdeck[Random.Range(0, startdeck.Count)];
+        Card previousCard;
+        for (int i = 1; i <= emptyCardSlots.Length; i++)
+        {
+            if (emptyCardSlots[i] == true)
+            {
+                for (int a = 0; a < i; a++)
+                {
+                    randCard.gameObject.SetActive(true);
+
+                    if (a == 0) {
+                        randCard.transform.position = cardSlots[i].position;
+                        randCard = previousCard;
+                    }
+                    else
+                    {
+                        randCard.transform.parent = previousCard.transform;
+                        randCard = previousCard;
+                    }
+                }
+            }
+        }
     }
 
     // Update is called once per frame
@@ -19,20 +40,18 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void DrawCard()
+   /* public void DrawCard()
     {
         switch(deck.Count)
         {
             case == 0:
                 
-            case = 1:
-                Card drawCard = deck[];
-            case = 2:
-                Card drawCard = deck[];
+            case == 1:
+                Card drawCard
+            case == 2:
+                Card drawCard
             case >= 3:
-                Card drawCard = deck[];
-            case = 0:
-                Card drawCard = deck[];
+                Card drawCard
         }
-    }
+    }*/
 }
