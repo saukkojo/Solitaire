@@ -7,34 +7,34 @@ public class GameManager : MonoBehaviour
     public List<Card> startdeck = new List<Card>();
     public Transform[] cardSlots;
     public bool[] emptyCardSlots;
+
+    public List<Card> playdeck = new List<Card>();
     // Start is called before the first frame update
     public void Start()
     {
-        Card randCard = startdeck[Random.Range(0, startdeck.Count)];
+        //goes through card slots in order
+        for (int i = 0; i < cardSlots.Length; i++)
+        {  
+            //spawns the correct amount of cards for each slot
+           for (int a = 0; a <= i; a++)
+           {
+                //activates a random card from the deck
+                Card randCard = startdeck[Random.Range(0, startdeck.Count)];
+                randCard.gameObject.SetActive(true);
 
-        for (int i = 1; i <= emptyCardSlots.Length; i++)
+                //moves the card to its position
+                randCard.transform.SetParent(cardSlots[i]);
+                randCard.transform.localPosition = new Vector3(0, -40 * a, 0);
+                
+                //removes used card from the deck
+                startdeck.Remove(randCard);
+           }
+        }
+
+        while (startdeck.Count > 0)
         {
-            if (emptyCardSlots[i] == true)
-            {
-                for (int a = 0; a < i; a++)
-                {
-                    randCard.gameObject.SetActive(true);
-
-                    if (a == 0) {
-                        randCard.transform.position = cardSlots[i].position;
-                        return;
-
-                    }
-                    else
-                    {
-                        randCard.transform.position = cardSlots[i].position + new Vector3(0,a * -10,0);
-                        return;
-                    }
-                    emptyCardSlots[i] = false;
-                    startdeck.Remove(randCard);
-                    return;
-                }
-            }
+            for()
+            startdeck.Remove(randCard);
         }
     }
 
