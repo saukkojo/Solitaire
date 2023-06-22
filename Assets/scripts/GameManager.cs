@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public bool[] emptyCardSlots;
 
     public List<Card> playdeck = new List<Card>();
+    public int topcard = 0;
+    private Card drawcard1;
+    private Card drawcard2;
+    private Card drawcard3;
     // Start is called before the first frame update
     public void Start()
     {
@@ -31,9 +35,10 @@ public class GameManager : MonoBehaviour
            }
         }
 
-        while (startdeck.Count > 0)
+        for (int i = 0; i < 24; i++)
         {
-            for()
+            Card randCard = startdeck[Random.Range(0, startdeck.Count)];
+            playdeck.Add(randCard);
             startdeck.Remove(randCard);
         }
     }
@@ -44,18 +49,45 @@ public class GameManager : MonoBehaviour
         
     }
 
-   /* public void DrawCard()
+    public void DrawCard()
     {
-        switch(deck.Count)
+        drawcard1 = playdeck[topcard];
+        drawcard2 = playdeck[topcard + 1];
+        drawcard3 = playdeck[topcard + 2];
+
+
+        if (topcard == 25)
         {
-            case == 0:
-                
-            case == 1:
-                Card drawCard
-            case == 2:
-                Card drawCard
-            case >= 3:
-                Card drawCard
+            drawcard1.gameObject.SetActive(false);
+            drawcard2.gameObject.SetActive(false);
+            drawcard3.gameObject.SetActive(false);
+            topcard = 0;     
         }
-    }*/
+        else if(topcard == 24)
+        {
+            drawcard2.gameObject.SetActive(false);
+            drawcard3.gameObject.SetActive(false);
+            topcard++;
+        }
+        else if (topcard == 23)
+        {
+            drawcard3.gameObject.SetActive(false);
+            topcard += 2;
+        }
+        else if (topcard > 0 && topcard < 23)
+        {
+            topcard += 3;
+        }
+        else if (topcard == 0)
+        {
+            drawcard1.gameObject.SetActive(true);
+            drawcard2.gameObject.SetActive(true);
+            drawcard3.gameObject.SetActive(true);
+            topcard += 3;
+        }
+        else
+        {
+            Debug.Log("Draw deck error");
+        }
+    }
 }
