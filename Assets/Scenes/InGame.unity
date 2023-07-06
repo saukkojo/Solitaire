@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 71685803}
   - component: {fileID: 71685800}
   m_Layer: 0
-  m_Name: Card (5)
+  m_Name: CardDiamonds6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,6 +499,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 6
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &86749313
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +517,7 @@ GameObject:
   - component: {fileID: 86749318}
   - component: {fileID: 86749315}
   m_Layer: 0
-  m_Name: Card (7)
+  m_Name: CardDiamonds8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,6 +649,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 8
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &180966907
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +735,7 @@ GameObject:
   - component: {fileID: 202748104}
   - component: {fileID: 202748101}
   m_Layer: 0
-  m_Name: Card (38)
+  m_Name: CardSpades3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -746,7 +754,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 38
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &202748101
 Animator:
@@ -859,6 +867,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 3
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &205557821
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +885,7 @@ GameObject:
   - component: {fileID: 205557826}
   - component: {fileID: 205557823}
   m_Layer: 0
-  m_Name: Card (33)
+  m_Name: CardClubs10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -892,7 +904,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &205557823
 Animator:
@@ -1005,6 +1017,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 10
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &336147165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1170,7 @@ GameObject:
   - component: {fileID: 356824536}
   - component: {fileID: 356824533}
   m_Layer: 0
-  m_Name: Card (1)
+  m_Name: CardDiamonds2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,6 +1302,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 2
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &358170560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,7 +1696,7 @@ GameObject:
   - component: {fileID: 444784125}
   - component: {fileID: 444784122}
   m_Layer: 0
-  m_Name: Card (48)
+  m_Name: CardSpades13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1695,7 +1715,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 48
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &444784122
 Animator:
@@ -1808,6 +1828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 13
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &445851262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1846,7 @@ GameObject:
   - component: {fileID: 445851267}
   - component: {fileID: 445851264}
   m_Layer: 0
-  m_Name: Card (40)
+  m_Name: CardSpades5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1841,7 +1865,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 40
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &445851264
 Animator:
@@ -1954,6 +1978,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 5
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &454840555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,7 +1996,7 @@ GameObject:
   - component: {fileID: 454840560}
   - component: {fileID: 454840557}
   m_Layer: 0
-  m_Name: Card (11)
+  m_Name: CardDiamonds12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2100,6 +2128,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 12
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &462370571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,7 +2146,7 @@ GameObject:
   - component: {fileID: 462370576}
   - component: {fileID: 462370573}
   m_Layer: 0
-  m_Name: Card (14)
+  m_Name: CardHearts3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2133,7 +2165,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &462370573
 Animator:
@@ -2246,6 +2278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 3
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &490786686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,7 +2363,7 @@ GameObject:
   - component: {fileID: 500848216}
   - component: {fileID: 500848213}
   m_Layer: 0
-  m_Name: Card (42)
+  m_Name: CardSpades7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2346,7 +2382,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 42
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &500848213
 Animator:
@@ -2459,6 +2495,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 7
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &506767202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,7 +2513,7 @@ GameObject:
   - component: {fileID: 506767207}
   - component: {fileID: 506767204}
   m_Layer: 0
-  m_Name: Card (27)
+  m_Name: CardClubs4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2492,7 +2532,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &506767204
 Animator:
@@ -2605,6 +2645,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 4
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &512589506
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,7 +2663,7 @@ GameObject:
   - component: {fileID: 512589511}
   - component: {fileID: 512589508}
   m_Layer: 0
-  m_Name: Card (16)
+  m_Name: CardHearts5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2638,7 +2682,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &512589508
 Animator:
@@ -2751,6 +2795,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 5
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &554042633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2765,7 +2813,7 @@ GameObject:
   - component: {fileID: 554042638}
   - component: {fileID: 554042635}
   m_Layer: 0
-  m_Name: Card (26)
+  m_Name: CardClubs3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2784,7 +2832,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &554042635
 Animator:
@@ -2897,6 +2945,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 3
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &569689866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,7 +2963,7 @@ GameObject:
   - component: {fileID: 569689871}
   - component: {fileID: 569689868}
   m_Layer: 0
-  m_Name: Card (21)
+  m_Name: CardHearts10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2930,7 +2982,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &569689868
 Animator:
@@ -3043,6 +3095,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 10
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &606049026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,7 +3113,7 @@ GameObject:
   - component: {fileID: 606049031}
   - component: {fileID: 606049028}
   m_Layer: 0
-  m_Name: Card (44)
+  m_Name: CardSpades9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3076,7 +3132,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 44
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &606049028
 Animator:
@@ -3189,6 +3245,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 9
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,7 +3374,7 @@ GameObject:
   - component: {fileID: 626658326}
   - component: {fileID: 626658323}
   m_Layer: 0
-  m_Name: Card (49)
+  m_Name: CardClubs13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3333,7 +3393,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 49
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &626658323
 Animator:
@@ -3446,6 +3506,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 13
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &642222556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3460,7 +3524,7 @@ GameObject:
   - component: {fileID: 642222561}
   - component: {fileID: 642222558}
   m_Layer: 0
-  m_Name: Card (13)
+  m_Name: CardHearts2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3479,7 +3543,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &642222558
 Animator:
@@ -3592,6 +3656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 2
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &679409384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,7 +3674,7 @@ GameObject:
   - component: {fileID: 679409389}
   - component: {fileID: 679409386}
   m_Layer: 0
-  m_Name: Card (45)
+  m_Name: CardSpades10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3625,7 +3693,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 45
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &679409386
 Animator:
@@ -3738,6 +3806,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 10
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &737768972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,7 +3824,7 @@ GameObject:
   - component: {fileID: 737768977}
   - component: {fileID: 737768974}
   m_Layer: 0
-  m_Name: Card (18)
+  m_Name: CardHearts7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3771,7 +3843,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &737768974
 Animator:
@@ -3884,6 +3956,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 7
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &741488878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,7 +3974,7 @@ GameObject:
   - component: {fileID: 741488883}
   - component: {fileID: 741488880}
   m_Layer: 0
-  m_Name: Card (17)
+  m_Name: CardHearts6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3917,7 +3993,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &741488880
 Animator:
@@ -4030,6 +4106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 6
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &744851261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4120,7 +4200,7 @@ GameObject:
   - component: {fileID: 747422005}
   - component: {fileID: 747422002}
   m_Layer: 0
-  m_Name: Card (36)
+  m_Name: CardSpades1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4139,7 +4219,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 36
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &747422002
 Animator:
@@ -4252,6 +4332,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 1
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &750770536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,7 +4453,7 @@ GameObject:
   - component: {fileID: 770209662}
   - component: {fileID: 770209659}
   m_Layer: 0
-  m_Name: Card (47)
+  m_Name: CardSpades12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4388,7 +4472,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 47
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &770209659
 Animator:
@@ -4501,6 +4585,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 12
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &770988811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,7 +4719,7 @@ GameObject:
   - component: {fileID: 791650946}
   - component: {fileID: 791650943}
   m_Layer: 0
-  m_Name: Card (37)
+  m_Name: CardSpades2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4650,7 +4738,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 37
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &791650943
 Animator:
@@ -4763,6 +4851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 2
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &810664967
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,7 +4907,7 @@ GameObject:
   - component: {fileID: 836672550}
   - component: {fileID: 836672547}
   m_Layer: 0
-  m_Name: Card (4)
+  m_Name: CardDiamonds5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4947,6 +5039,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 5
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &873225651
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,7 +5057,7 @@ GameObject:
   - component: {fileID: 873225656}
   - component: {fileID: 873225653}
   m_Layer: 0
-  m_Name: Card (6)
+  m_Name: CardDiamonds7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5093,6 +5189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 7
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &878384166
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,7 +5345,7 @@ GameObject:
   - component: {fileID: 1034530844}
   - component: {fileID: 1034530841}
   m_Layer: 0
-  m_Name: Card (50)
+  m_Name: CardHearts13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5264,7 +5364,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 50
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1034530841
 Animator:
@@ -5377,6 +5477,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 13
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1058972784
 GameObject:
   m_ObjectHideFlags: 0
@@ -5391,7 +5495,7 @@ GameObject:
   - component: {fileID: 1058972789}
   - component: {fileID: 1058972786}
   m_Layer: 0
-  m_Name: Card (2)
+  m_Name: CardDiamonds3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5523,6 +5627,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 3
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1063998642
 GameObject:
   m_ObjectHideFlags: 0
@@ -5537,7 +5645,7 @@ GameObject:
   - component: {fileID: 1063998647}
   - component: {fileID: 1063998644}
   m_Layer: 0
-  m_Name: Card (19)
+  m_Name: CardHearts8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5556,7 +5664,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1063998644
 Animator:
@@ -5669,6 +5777,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 8
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1098808948
 GameObject:
   m_ObjectHideFlags: 0
@@ -5683,7 +5795,7 @@ GameObject:
   - component: {fileID: 1098808953}
   - component: {fileID: 1098808950}
   m_Layer: 0
-  m_Name: Card (20)
+  m_Name: CardHearts9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5702,7 +5814,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1098808950
 Animator:
@@ -5815,6 +5927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 9
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1112292022
 GameObject:
   m_ObjectHideFlags: 0
@@ -5829,7 +5945,7 @@ GameObject:
   - component: {fileID: 1112292027}
   - component: {fileID: 1112292024}
   m_Layer: 0
-  m_Name: Card (41)
+  m_Name: CardSpades6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5848,7 +5964,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 41
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1112292024
 Animator:
@@ -5961,6 +6077,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 6
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1115506796
 GameObject:
   m_ObjectHideFlags: 0
@@ -5975,7 +6095,7 @@ GameObject:
   - component: {fileID: 1115506801}
   - component: {fileID: 1115506798}
   m_Layer: 0
-  m_Name: Card (28)
+  m_Name: CardClubs5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5994,7 +6114,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1115506798
 Animator:
@@ -6107,6 +6227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 5
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1127358008
 GameObject:
   m_ObjectHideFlags: 0
@@ -6121,7 +6245,7 @@ GameObject:
   - component: {fileID: 1127358013}
   - component: {fileID: 1127358010}
   m_Layer: 0
-  m_Name: Card (39)
+  m_Name: CardSpades4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6140,7 +6264,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 39
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1127358010
 Animator:
@@ -6253,6 +6377,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 4
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1141549143
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,7 +6461,7 @@ GameObject:
   - component: {fileID: 1175410121}
   - component: {fileID: 1175410118}
   m_Layer: 0
-  m_Name: Card (32)
+  m_Name: CardClubs9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6352,7 +6480,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1175410118
 Animator:
@@ -6465,6 +6593,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 9
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1182120306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6717,7 +6849,7 @@ GameObject:
   - component: {fileID: 1218894261}
   - component: {fileID: 1218894258}
   m_Layer: 0
-  m_Name: Card (23)
+  m_Name: CardHearts12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6736,7 +6868,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1218894258
 Animator:
@@ -6849,6 +6981,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 12
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1235071565
 GameObject:
   m_ObjectHideFlags: 0
@@ -6998,7 +7134,7 @@ GameObject:
   - component: {fileID: 1239957472}
   - component: {fileID: 1239957471}
   m_Layer: 0
-  m_Name: Card
+  m_Name: CardDiamonds1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7052,6 +7188,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 1
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!61 &1239957473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7144,7 +7284,7 @@ GameObject:
   - component: {fileID: 1243769676}
   - component: {fileID: 1243769673}
   m_Layer: 0
-  m_Name: Card (43)
+  m_Name: CardSpades8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7163,7 +7303,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 43
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1243769673
 Animator:
@@ -7276,6 +7416,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 8
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1264771816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7463,6 +7607,7 @@ Transform:
   - {fileID: 1666868337}
   - {fileID: 2034834413}
   - {fileID: 454840556}
+  - {fileID: 1371331626}
   - {fileID: 1405720761}
   - {fileID: 642222557}
   - {fileID: 462370572}
@@ -7475,6 +7620,7 @@ Transform:
   - {fileID: 569689867}
   - {fileID: 1494856673}
   - {fileID: 1218894257}
+  - {fileID: 1034530840}
   - {fileID: 1930592008}
   - {fileID: 1535402548}
   - {fileID: 554042634}
@@ -7487,6 +7633,7 @@ Transform:
   - {fileID: 205557822}
   - {fileID: 1588526560}
   - {fileID: 2140981576}
+  - {fileID: 626658322}
   - {fileID: 747422001}
   - {fileID: 791650942}
   - {fileID: 202748100}
@@ -7500,10 +7647,6 @@ Transform:
   - {fileID: 1563513820}
   - {fileID: 770209658}
   - {fileID: 444784121}
-  - {fileID: 626658322}
-  - {fileID: 1034530840}
-  - {fileID: 1371331626}
-  - {fileID: 2121257156}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7637,7 +7780,7 @@ GameObject:
   - component: {fileID: 1371331622}
   - component: {fileID: 1371331623}
   m_Layer: 0
-  m_Name: Card (51)
+  m_Name: CardDiamonds13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7655,6 +7798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 13
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!95 &1371331623
 Animator:
   serializedVersion: 5
@@ -7767,7 +7914,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 51
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1405720760
 GameObject:
@@ -7783,7 +7930,7 @@ GameObject:
   - component: {fileID: 1405720765}
   - component: {fileID: 1405720762}
   m_Layer: 0
-  m_Name: Card (12)
+  m_Name: CardHearts1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7802,7 +7949,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1405720762
 Animator:
@@ -7915,6 +8062,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 1
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1412208424
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,7 +8303,7 @@ GameObject:
   - component: {fileID: 1494856677}
   - component: {fileID: 1494856674}
   m_Layer: 0
-  m_Name: Card (22)
+  m_Name: CardHearts11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8171,7 +8322,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1494856674
 Animator:
@@ -8284,6 +8435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 11
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1521453325
 GameObject:
   m_ObjectHideFlags: 0
@@ -8401,7 +8556,7 @@ GameObject:
   - component: {fileID: 1535402552}
   - component: {fileID: 1535402549}
   m_Layer: 0
-  m_Name: Card (25)
+  m_Name: CardClubs2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8420,7 +8575,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1535402549
 Animator:
@@ -8533,6 +8688,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 2
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1563513819
 GameObject:
   m_ObjectHideFlags: 0
@@ -8547,7 +8706,7 @@ GameObject:
   - component: {fileID: 1563513824}
   - component: {fileID: 1563513821}
   m_Layer: 0
-  m_Name: Card (46)
+  m_Name: CardSpades11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8566,7 +8725,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 46
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1563513821
 Animator:
@@ -8679,6 +8838,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 11
+  country: 4
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1577666452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8812,7 +8975,7 @@ GameObject:
   - component: {fileID: 1588526564}
   - component: {fileID: 1588526561}
   m_Layer: 0
-  m_Name: Card (34)
+  m_Name: CardClubs11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8831,7 +8994,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1588526561
 Animator:
@@ -8944,6 +9107,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 11
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1593398318
 GameObject:
   m_ObjectHideFlags: 0
@@ -9074,7 +9241,7 @@ GameObject:
   - component: {fileID: 1598057144}
   - component: {fileID: 1598057141}
   m_Layer: 0
-  m_Name: Card (31)
+  m_Name: CardClubs8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9093,7 +9260,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1598057141
 Animator:
@@ -9206,6 +9373,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 8
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1666868336
 GameObject:
   m_ObjectHideFlags: 0
@@ -9220,7 +9391,7 @@ GameObject:
   - component: {fileID: 1666868341}
   - component: {fileID: 1666868338}
   m_Layer: 0
-  m_Name: Card (9)
+  m_Name: CardDiamonds10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9352,6 +9523,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 10
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1764334883
 GameObject:
   m_ObjectHideFlags: 0
@@ -9366,7 +9541,7 @@ GameObject:
   - component: {fileID: 1764334888}
   - component: {fileID: 1764334885}
   m_Layer: 0
-  m_Name: Card (3)
+  m_Name: CardDiamonds4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9498,6 +9673,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 4
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &1930592007
 GameObject:
   m_ObjectHideFlags: 0
@@ -9512,7 +9691,7 @@ GameObject:
   - component: {fileID: 1930592012}
   - component: {fileID: 1930592009}
   m_Layer: 0
-  m_Name: Card (24)
+  m_Name: CardClubs1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9531,7 +9710,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1930592009
 Animator:
@@ -9644,6 +9823,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 1
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1936993665
 GameObject:
   m_ObjectHideFlags: 0
@@ -9869,7 +10052,7 @@ GameObject:
   - component: {fileID: 1990796422}
   - component: {fileID: 1990796419}
   m_Layer: 0
-  m_Name: Card (30)
+  m_Name: CardClubs7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9888,7 +10071,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1990796419
 Animator:
@@ -10001,6 +10184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 7
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &1991514236
 GameObject:
   m_ObjectHideFlags: 0
@@ -10167,7 +10354,7 @@ GameObject:
   - component: {fileID: 2034834417}
   - component: {fileID: 2034834414}
   m_Layer: 0
-  m_Name: Card (10)
+  m_Name: CardDiamonds11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10299,6 +10486,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 11
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &2074503013
 GameObject:
   m_ObjectHideFlags: 0
@@ -10313,7 +10504,7 @@ GameObject:
   - component: {fileID: 2074503018}
   - component: {fileID: 2074503015}
   m_Layer: 0
-  m_Name: Card (15)
+  m_Name: CardHearts4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10332,7 +10523,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2074503015
 Animator:
@@ -10445,6 +10636,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 4
+  country: 2
+  isRed: 1
+  faceUp: 0
 --- !u!1 &2093559035
 GameObject:
   m_ObjectHideFlags: 0
@@ -10459,7 +10654,7 @@ GameObject:
   - component: {fileID: 2093559040}
   - component: {fileID: 2093559037}
   m_Layer: 0
-  m_Name: Card (8)
+  m_Name: CardDiamonds9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10591,6 +10786,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 9
+  country: 1
+  isRed: 1
+  faceUp: 0
 --- !u!1 &2120254225
 GameObject:
   m_ObjectHideFlags: 0
@@ -10605,7 +10804,7 @@ GameObject:
   - component: {fileID: 2120254230}
   - component: {fileID: 2120254227}
   m_Layer: 0
-  m_Name: Card (29)
+  m_Name: CardClubs6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10624,7 +10823,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2120254227
 Animator:
@@ -10737,90 +10936,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2121257155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2121257156}
-  - component: {fileID: 2121257157}
-  m_Layer: 0
-  m_Name: playing card solitaire test
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2121257156
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121257155}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1361929185}
-  m_RootOrder: 52
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2121257157
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121257155}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1df8c591fa005c94ab5cb492dee4526c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 13.494141, y: 21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  value: 6
+  country: 3
+  isRed: 0
+  faceUp: 0
 --- !u!1 &2136126276
 GameObject:
   m_ObjectHideFlags: 0
@@ -11207,7 +11326,7 @@ GameObject:
   - component: {fileID: 2140981580}
   - component: {fileID: 2140981577}
   m_Layer: 0
-  m_Name: Card (35)
+  m_Name: CardClubs12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11226,7 +11345,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1361929185}
-  m_RootOrder: 35
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2140981577
 Animator:
@@ -11339,3 +11458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e45c459cb8aa00428455a68f7b570ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 12
+  country: 3
+  isRed: 0
+  faceUp: 0
