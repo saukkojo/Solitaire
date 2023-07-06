@@ -29,11 +29,12 @@ public class GameManager : MonoBehaviour
 
                 //moves the card to its position
                 randCard.transform.SetParent(cardSlots[i]);
-                randCard.transform.localPosition = new Vector3(0, -40 * a, 0);
+                randCard.transform.localPosition = new Vector3(0, -20 * a, 0);
                 
                 //removes used card from the deck
                 startdeck.Remove(randCard);
            }
+            cardSlots[i].GetComponent<cardrenderer>().OrderCards();
         }
 
         for (int i = 0; i < 24; i++)
@@ -52,31 +53,46 @@ public class GameManager : MonoBehaviour
 
     public void DrawCard()
     {
-        drawcard1 = playdeck[topcard];
-        drawcard2 = playdeck[topcard + 1];
-        drawcard3 = playdeck[topcard + 2];
+        if (topcard > 0)
+        {
+            drawcard1.gameObject.SetActive(false);
+            drawcard2.gameObject.SetActive(false);
+            drawcard3.gameObject.SetActive(false);
+        }
 
+        if (topcard < 24)
+        {
+            drawcard1 = playdeck[topcard];
+            drawcard2 = playdeck[topcard + 1];
+            drawcard3 = playdeck[topcard + 2];
+        }
 
-        if (topcard == 25)
+        if (topcard == 24)
         {
             drawcard1.gameObject.SetActive(false);
             drawcard2.gameObject.SetActive(false);
             drawcard3.gameObject.SetActive(false);
             topcard = 0;     
         }
-        else if(topcard == 24)
+        else if(topcard == 23)
         {
+            drawcard1.gameObject.SetActive(true);
             drawcard2.gameObject.SetActive(false);
             drawcard3.gameObject.SetActive(false);
             topcard++;
         }
-        else if (topcard == 23)
+        else if (topcard == 22)
         {
+            drawcard1.gameObject.SetActive(true);
+            drawcard2.gameObject.SetActive(true);
             drawcard3.gameObject.SetActive(false);
             topcard += 2;
         }
-        else if (topcard > 0 && topcard < 23)
+        else if (topcard > 0 && topcard < 22)
         {
+            drawcard1.gameObject.SetActive(true);
+            drawcard2.gameObject.SetActive(true);
+            drawcard3.gameObject.SetActive(true);
             topcard += 3;
         }
         else if (topcard == 0)
@@ -90,6 +106,14 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Draw deck error");
         }
+
+        drawcard1.transform.parent = GameObject.Find("deck").transform;
+        drawcard1.transform.localPosition = new Vector3(0, 0, 0);
+        drawcard2.transform.parent = GameObject.Find("deck").transform;
+        drawcard2.transform.localPosition = new Vector3(30, 0, 0);
+        drawcard3.transform.parent = GameObject.Find("deck").transform;
+        drawcard3.transform.localPosition = new Vector3(60, 0, 0);
+
     }
 
     public void RestartGame()
