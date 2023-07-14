@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
-public class GameManager : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDragHandler
+public class GameManager : MonoBehaviour
 {
     public List<Card> startdeck = new List<Card>();
     public Transform[] cardSlots;
@@ -16,11 +16,9 @@ public class GameManager : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDrag
     private Card drawcard2;
     private Card drawcard3;
 
-    private RectTransform rectTransform;
     // Start is called before the first frame update
     public void Start()
     {
-        rectTransform = GetComponent<RectTransform>();
 
         //goes through card slots in order
         for (int i = 0; i < cardSlots.Length; i++)
@@ -119,38 +117,5 @@ public class GameManager : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDrag
         drawcard3.transform.parent = GameObject.Find("deck").transform;
         drawcard3.transform.localPosition = new Vector3(60, 0, 0);
 
-    }
-
-    /*void OnMouseDown()
-    {
-        screenPoint = Camera.main.WorldToScreenPoint(Input.mousePosition);
-        offset = Input.mousePosition - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
-    }
-
-    void OnMouseDrag()
-    {
-        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z);
-        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
-        transform.position = curPosition;
-    }*/
-
-    public void OnBeginDrag(PointerEventData eventdata)
-    {
-
-    }
-
-    public void OnDrag(PointerEventData eventdata)
-    {
-
-    }
-
-    public void OnEndDrag(PointerEventData eventdata)
-    {
-
-    }
-
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
